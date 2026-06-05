@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500">
+
+  <defs>
+
+    <!-- Reusable Tire -->
+    <g id="tire">
+      <circle cx="0" cy="0" r="14" fill="#1a1a1a"></circle>
+      <circle cx="0" cy="0" r="7" fill="none" stroke="#4a4a4a" stroke-width="2"></circle>
+      <circle cx="0" cy="0" r="13" fill="none" stroke="#2f2f2f" stroke-width="1"></circle>
+    </g>
+
+  </defs>
+
+  <!-- ===================================================== -->
+  <!-- STRAIGHT BARRIER -->
+  <!-- ===================================================== -->
+
+  <g id="straight_barrier">
+
+    <use href="#tire" x="40" y="120"></use>
+    <use href="#tire" x="68" y="120"></use>
+    <use href="#tire" x="96" y="120"></use>
+    <use href="#tire" x="124" y="120"></use>
+    <use href="#tire" x="152" y="120"></use>
+    <use href="#tire" x="180" y="120"></use>
+    <use href="#tire" x="208" y="120"></use>
+    <use href="#tire" x="236" y="120"></use>
+    <use href="#tire" x="264" y="120"></use>
+    <use href="#tire" x="292" y="120"></use>
+    <use href="#tire" x="320" y="120"></use>
+    <use href="#tire" x="348" y="120"></use>
+    <use href="#tire" x="376" y="120"></use>
+    <use href="#tire" x="404" y="120"></use>
+    <use href="#tire" x="432" y="120"></use>
+    <use href="#tire" x="460" y="120"></use>
+
+  </g>
+
+  <!-- ===================================================== -->
+  <!-- CURVED BARRIER -->
+  <!-- ===================================================== -->
+
+  <g id="curved_barrier">
+
+    <use href="#tire" x="620" y="180"></use>
+    <use href="#tire" x="646" y="178"></use>
+    <use href="#tire" x="672" y="174"></use>
+    <use href="#tire" x="698" y="168"></use>
+    <use href="#tire" x="723" y="160"></use>
+    <use href="#tire" x="747" y="149"></use>
+    <use href="#tire" x="770" y="136"></use>
+    <use href="#tire" x="791" y="120"></use>
+    <use href="#tire" x="810" y="102"></use>
+    <use href="#tire" x="827" y="82"></use>
+    <use href="#tire" x="842" y="60"></use>
+    <use href="#tire" x="855" y="36"></use>
+
+  </g>
+
+  <!-- ===================================================== -->
+  <!-- 90 DEGREE CORNER BARRIER -->
+  <!-- ===================================================== -->
+
+  <g id="corner_barrier">
+
+    <!-- Horizontal Section -->
+
+    <use href="#tire" x="140" y="360"></use>
+    <use href="#tire" x="168" y="360"></use>
+    <use href="#tire" x="196" y="360"></use>
+    <use href="#tire" x="224" y="360"></use>
+    <use href="#tire" x="252" y="360"></use>
+    <use href="#tire" x="280" y="360"></use>
+    <use href="#tire" x="308" y="360"></use>
+
+    <!-- Corner Arc -->
+
+    <use href="#tire" x="332" y="356"></use>
+    <use href="#tire" x="352" y="346"></use>
+    <use href="#tire" x="368" y="330"></use>
+    <use href="#tire" x="378" y="310"></use>
+
+    <!-- Vertical Section -->
+
+    <use href="#tire" x="382" y="286"></use>
+    <use href="#tire" x="382" y="258"></use>
+    <use href="#tire" x="382" y="230"></use>
+    <use href="#tire" x="382" y="202"></use>
+    <use href="#tire" x="382" y="174"></use>
+    <use href="#tire" x="382" y="146"></use>
+    <use href="#tire" x="382" y="118"></use>
+
+  </g>
+
+</svg>
